@@ -194,7 +194,7 @@ Luego crearemos el primer **commit**, el **repositorio remoto** y subiremos todo
 ```bash
 git config user.email "tuemaul@dominio.com"
 git commit -m "Commit inicial"
-git remote add Symfony https://github.com/HecFranco/Symfony-4-Test.git
+git remote add Symfony https://github.com/olskandrbyk/olek-sympony4-example.git
 git push Symfony master
 ```
 
@@ -211,7 +211,7 @@ _[/.git/config](/.git/config)_
 ++[user]
 ++	email = hector.franco.aceituno@gmail.com
 ++[remote "Symfony"]
-++	url = https://github.com/HecFranco/Symfony-4-Test.git
+++	url = https://github.com/oleksandrbyk/olek-sympony4-example.git
 ++	fetch = +refs/heads/*:refs/remotes/Symfony/*
 ```
 
